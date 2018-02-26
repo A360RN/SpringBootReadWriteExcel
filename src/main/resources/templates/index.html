@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.com">
+<head>
+<title>Spring Boot Read Write Excel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h2>Form</h2>
+	<form th:action="@{/upload}" method="POST" enctype="multipart/form-data">
+		<input type="file" name="file" />
+		<button>Submit</button>
+	</form>
+</body>
+</html>
